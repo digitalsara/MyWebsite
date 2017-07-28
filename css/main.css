@@ -22,3 +22,21 @@ nav li a {
   width: 26px;
   opacity: .5;
 }
+
+/******* GALLERY *******/
+
+.gal-container {
+  text-align: center;
+  margin: 0 auto;
+
+
+
+  max-width: 1400px;
+  width: 100%;
+}
+
+.gal img {
+  overflow: hidden;
+  border-radius: 22px;
+  width: 100%;
+}
