@@ -1,20 +1,29 @@
 html {
-  background-color: #FFFEF6;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
   color: #FF6A5C;
 }
 
+.logo {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 550px;
+  min-width: 250px;
+  width: 40%;
+}
+
 h2 {
-  font-family: 'Inconsolata', monospace;
-  color: #414141;
+  font-weight: 400;
+  color: #18515B;
 }
 
 nav li a {
-  font-family: 'Inconsolata', monospace;
-  color: #414141;
+  font-weight: 300;
+  color: #000;
   text-decoration: none;
 }
 
@@ -23,20 +32,74 @@ nav li a {
   opacity: .5;
 }
 
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+}
+
 /******* GALLERY *******/
+
+.portfolio {
+  background-color: #dbe5e7;
+  padding: 5em 0;
+}
 
 .gal-container {
   text-align: center;
   margin: 0 auto;
 
-
-
   max-width: 1400px;
   width: 100%;
 }
 
+.gal {
+  height: 50%;
+
+}
 .gal img {
-  overflow: hidden;
-  border-radius: 22px;
+  /*border: 1px solid #000;*/
   width: 100%;
+}
+
+/****************/
+
+/*.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+   }
+}*/
+
+
+/****************/
+
+.intro p {
+  max-width: 20em;
+}
+
+.intro {
+  margin: 0 auto;
+  text-align: center;
 }
